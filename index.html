@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatdango</title>
+    <link rel="stylesheet"type="text/css" href="styles.css">
+</head>
+<body>
+    <h2><b><i>THE GREAT CINEMA</i></b></h2>
+    <div style="display: flex;">
+        <ul id="films" style="width: 30%; list-style: none; padding: 0;"></ul>
+        <div id="movieDetails" style="width: 70%;">
+            <img id="moviePoster" src="db.json" alt="Movie Poster">
+            <h3 id="movieTitle"></h3>
+            <p><strong>Runtime:</strong> <span id="movieRuntime"></span> minutes</p>
+            <p><strong>Showtime:</strong> <span id="movieShowtime"></span></p>
+            <p><strong>Available Tickets:</strong> <span id="availableTickets"></span></p>
+            <button id="buyTicket">Buy Ticket</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
