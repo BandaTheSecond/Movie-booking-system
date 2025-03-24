@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', fetchMovies);
 let currentMovie = null;
 
 async function fetchMovies() {
@@ -109,4 +109,4 @@ document.getElementById('buyTicket').addEventListener('click', async function() 
     }
 });
 
-document.addEventListener('DOMContentLoaded', fetchMovies);
+

@@ -1,54 +1,68 @@
 body { 
-    font-family: Arial, sans-serif;
- }
+  font-family: Arial, sans-serif;
+}
+header{
+  color: aqua;
+  background-color: rgb(7, 6, 6);
+
+}
+
 
 #movieDetails {
-     max-width: 400px;
-      text-align: center; 
-    }
+   max-width: 400px;
+    text-align: center; 
+    width: 50%;
+    display:flex;
+  }
 
 img { 
-    width: 100%; 
-    height: auto;
- }
+  width: 100%; 
+  height: auto;
+  vertical-align: middle;
+    border: 0;
+}
+
 button {
-     margin-top: 10px;
-      padding: 10px;
-       cursor: pointer;
-     }
+   margin-top: 10px;
+    padding: 10px;
+     cursor: pointer;background-color: red;
+     color: black;
+   }
 
 #films { 
-    border-right: 1px solid #ccc;
-     padding: 10px; }
+  border-right: 1px solid #ccc;
+   padding: 10px;
+  width: 40%;
+ }
 
 
 .film {
-     cursor: pointer;
-      padding: 5px;
-       border-bottom: 1px solid #ddd;
-        display: flex;
-         justify-content: space-between;
-          align-items: center; 
-        }
+   cursor: pointer;
+    padding: 5px;
+     border-bottom: 1px solid #ddd;
+      display: flex;
+       justify-content: space-between;
+        align-items: center; 
+      }
 
 .film:hover {
-     background-color: #f0f0f0; 
-    }
+   background-color: #f0f0f0; 
+  }
 
 .sold-out { 
-    color: red; 
-    text-decoration:line-through; 
-    pointer-events: none;
- }
+  color: red; 
+  text-decoration:line-through; 
+  pointer-events: none;
+}
 
 .delete-btn { 
-    margin-left: 10px;
-     background-color: rgb(145, 255, 0);
-      color: rgb(17, 17, 17); 
-      border: none;
-      padding: 5px; 
-      cursor: pointer; 
-    }
+  margin-left: 10px;
+   background-color: rgb(145, 255, 0);
+    color: rgb(17, 17, 17); 
+    border: none;
+    padding: 5px; 
+    cursor: pointer; 
+  }
 
 .delete-btn:hover {
-     background-color: red; }
+   background-color: red; }
